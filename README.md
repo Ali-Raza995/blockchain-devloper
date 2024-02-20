@@ -32,6 +32,24 @@ Distributive Blockchain ------------> Chain k peers bnaanty hai hum, agr data ai
 
 * --------------- SMART CONTRACTS --------------------
 
-* An account controlled by developers
+* An account controlled by code (developers)
 
-* External Acounts -------> Koi bh bnasakta hai jese hum n bnaya?
+* External Accounts -------> Koi bh bnasakta hai jese hum n bnaya?
+
+* Solidity Compilor ---------------------> 1) Byte code ready for deployment 2) ABI
+
+* ABI ------> Application Binary Interface ------->
+
+* Inside Contract ------> We define instance variables and its going to exist for the life of the contract
+
+public variable ( Everyone ) -----> Who has access to see the content of this variable
+
+Storage Variables -----------------> It will be automatically stored in the contract with the blockchain
+
+* Constructor Functions -----------> If the function has the same name as the contract
+* Constructor Functions called one time automatically when the contract is created
+* Public -----> Any one can use this function
+* Private ----> Only contract can use this function
+* View || constant ----> if it can access data but not modify it
+* Payable (Important)
+* Return is only going to be used when the function marked as view or constant means it doesnt modify the value
